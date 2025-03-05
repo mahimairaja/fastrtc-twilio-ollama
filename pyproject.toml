@@ -1,0 +1,12 @@
+[project]
+name = "fastrtc-twilio-ollama"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastrtc[stt,tts,vad]>=0.0.12",
+    "ollama>=0.4.7",
+    "python-dotenv>=1.0.1",
+    "twilio>=9.4.6",
+]
